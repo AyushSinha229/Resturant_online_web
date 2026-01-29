@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Reserve | SpiceBite</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+<header class="header">
+  <nav class="nav container">
+    <div class="logo">SpiceBite</div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="menu.html">Menu</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a class="active btn-nav" href="reservation.html">Reserve</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section class="page-head">
+  <h1>Reserve a Table</h1>
+  <p>Plan ahead. Dine relaxed.</p>
+</section>
+
+<section class="container reserve-layout">
+  <form class="form clean-form">
+    <label>
+      Full Name
+      <input type="text" required />
+    </label>
+
+    <label>
+      Date
+      <input type="date" required />
+    </label>
+
+    <label>
+      Time
+      <input type="time" required />
+    </label>
+
+    <label>
+      Number of Guests
+      <input type="number" min="1" max="10" required />
+    </label>
+
+    <button class="btn-main">Request Reservation</button>
+    <span class="form-status"></span>
+  </form>
+
+  <div class="reserve-info">
+    <h3>How it works</h3>
+    <p>
+      Submit your request and we’ll confirm availability
+      via email or phone.
+    </p>
+    <p>
+      Large groups or events?  
+      Please contact us directly.
+    </p>
+  </div>
+</section>
+
+<footer class="footer">
+  <p>© 2026 SpiceBite</p>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
